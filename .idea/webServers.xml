@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5a76f0d2-96fc-47e1-bbf4-2ec375f4ea53" name="msdev">
+        <fileTransfer rootFolder="/home/fadhli/public_html/msdev" accessType="SFTP" host="36.37.114.37" port="22" sshConfigId="d917e552-d75e-4fd4-8cf7-d93346c4d248" sshConfig="fadhli@36.37.114.37:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

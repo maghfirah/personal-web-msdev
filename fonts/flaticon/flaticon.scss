@@ -1,0 +1,45 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?14e5e0de1628525bdcdf649099ee4f31") format("truetype"),
+url("./flaticon.woff?14e5e0de1628525bdcdf649099ee4f31") format("woff"),
+url("./flaticon.woff2?14e5e0de1628525bdcdf649099ee4f31") format("woff2"),
+url("./flaticon.eot?14e5e0de1628525bdcdf649099ee4f31#iefix") format("embedded-opentype"),
+url("./flaticon.svg?14e5e0de1628525bdcdf649099ee4f31#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "gmail": "\f101",
+    "facebook-logo": "\f102",
+    "instagram": "\f103",
+    "whatsapp": "\f104",
+    "linkedin": "\f105",
+);
+
+.flaticon-gmail:before {
+    content: map-get($flaticon-map, "gmail");
+}
+.flaticon-facebook-logo:before {
+    content: map-get($flaticon-map, "facebook-logo");
+}
+.flaticon-instagram:before {
+    content: map-get($flaticon-map, "instagram");
+}
+.flaticon-whatsapp:before {
+    content: map-get($flaticon-map, "whatsapp");
+}
+.flaticon-linkedin:before {
+    content: map-get($flaticon-map, "linkedin");
+}
